@@ -15,10 +15,11 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = ['Frameworks/GhostPlusMedia.framework']
   
+  #s.source           = { :http => 'http://developer.ghostplus.com/project/ghostplus_ios/GhostPlus-1.00.tar.gz', :flatten => true }
   s.source       = { :git => "https://github.com/vanstudio/GhostPlusMedia-iOS.git", :tag => @version }
   
   s.source_files = []
-  s.resources = []
+  s.resource = 'Frameworks/GhostPlusMedia.framework/Versions/A/Resources/GhostPlusMediaResources.bundle'
   
   s.preserve_paths = []
   s.header_dir = 'GhostPlusMedia'
