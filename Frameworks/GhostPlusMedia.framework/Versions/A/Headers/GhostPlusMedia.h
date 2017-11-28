@@ -21,8 +21,8 @@
 #import <GhostPlusMedia/GPImageEditorController.h>
 
 // Constans
-#define GHOSTPLUSMEDIA_VERSION           @"1.00";
-#define GHOSTPLUSMEDIA_BUILD_VERSION     @"100";
+#define GHOSTPLUSMEDIA_VERSION           @"1.01";
+#define GHOSTPLUSMEDIA_BUILD_VERSION     @"101";
 
 
 /**
